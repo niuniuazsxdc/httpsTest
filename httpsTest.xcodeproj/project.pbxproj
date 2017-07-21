@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		240FF1B26C85531B37584B25 /* Pods_httpsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02064E61C7E1892DBE6C1467 /* Pods_httpsTest.framework */; };
+		D35E6DD91F21E4B700B85FE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E6DD81F21E4B700B85FE4 /* main.m */; };
+		D35E6DDC1F21E4B800B85FE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E6DDB1F21E4B800B85FE4 /* AppDelegate.m */; };
+		D35E6DDF1F21E4B800B85FE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E6DDE1F21E4B800B85FE4 /* ViewController.m */; };
+		D35E6DE21F21E4B800B85FE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35E6DE01F21E4B800B85FE4 /* Main.storyboard */; };
+		D35E6DE41F21E4B800B85FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35E6DE31F21E4B800B85FE4 /* Assets.xcassets */; };
+		D35E6DE71F21E4B800B85FE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35E6DE51F21E4B800B85FE4 /* LaunchScreen.storyboard */; };
+		D35E6DF21F21E4B800B85FE4 /* httpsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E6DF11F21E4B800B85FE4 /* httpsTestTests.m */; };
+		D35E6DFD1F21E4B800B85FE4 /* httpsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E6DFC1F21E4B800B85FE4 /* httpsTestUITests.m */; };
+		D35E6E0B1F21E9E800B85FE4 /* MORISE.cer in Resources */ = {isa = PBXBuildFile; fileRef = D35E6E0A1F21E9E800B85FE4 /* MORISE.cer */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D35E6DEE1F21E4B800B85FE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35E6DCC1F21E4B700B85FE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35E6DD31F21E4B700B85FE4;
+			remoteInfo = httpsTest;
+		};
+		D35E6DF91F21E4B800B85FE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35E6DCC1F21E4B700B85FE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35E6DD31F21E4B700B85FE4;
+			remoteInfo = httpsTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02064E61C7E1892DBE6C1467 /* Pods_httpsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_httpsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B688A0E8069ED3C865B909 /* Pods-httpsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-httpsTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-httpsTest/Pods-httpsTest.release.xcconfig"; sourceTree = "<group>"; };
+		BB3F701D197B4DA83EF7DB59 /* Pods-httpsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-httpsTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-httpsTest/Pods-httpsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D35E6DD41F21E4B700B85FE4 /* httpsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = httpsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35E6DD81F21E4B700B85FE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D35E6DDA1F21E4B800B85FE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D35E6DDB1F21E4B800B85FE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D35E6DDD1F21E4B800B85FE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D35E6DDE1F21E4B800B85FE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D35E6DE11F21E4B800B85FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D35E6DE31F21E4B800B85FE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D35E6DE61F21E4B800B85FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D35E6DE81F21E4B800B85FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35E6DED1F21E4B800B85FE4 /* httpsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = httpsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35E6DF11F21E4B800B85FE4 /* httpsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = httpsTestTests.m; sourceTree = "<group>"; };
+		D35E6DF31F21E4B800B85FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35E6DF81F21E4B800B85FE4 /* httpsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = httpsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35E6DFC1F21E4B800B85FE4 /* httpsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = httpsTestUITests.m; sourceTree = "<group>"; };
+		D35E6DFE1F21E4B800B85FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35E6E0A1F21E9E800B85FE4 /* MORISE.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = MORISE.cer; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D35E6DD11F21E4B700B85FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240FF1B26C85531B37584B25 /* Pods_httpsTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35E6DEA1F21E4B800B85FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35E6DF51F21E4B800B85FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82018079C10634F25EC8D516 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02064E61C7E1892DBE6C1467 /* Pods_httpsTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35E6DCB1F21E4B700B85FE4 = {
+			isa = PBXGroup;
+			children = (
+				D35E6DD61F21E4B700B85FE4 /* httpsTest */,
+				D35E6DF01F21E4B800B85FE4 /* httpsTestTests */,
+				D35E6DFB1F21E4B800B85FE4 /* httpsTestUITests */,
+				D35E6DD51F21E4B700B85FE4 /* Products */,
+				F5DD60FE2B09C7B8BD30CD19 /* Pods */,
+				82018079C10634F25EC8D516 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D35E6DD51F21E4B700B85FE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D35E6DD41F21E4B700B85FE4 /* httpsTest.app */,
+				D35E6DED1F21E4B800B85FE4 /* httpsTestTests.xctest */,
+				D35E6DF81F21E4B800B85FE4 /* httpsTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35E6DD61F21E4B700B85FE4 /* httpsTest */ = {
+			isa = PBXGroup;
+			children = (
+				D35E6DDA1F21E4B800B85FE4 /* AppDelegate.h */,
+				D35E6DDB1F21E4B800B85FE4 /* AppDelegate.m */,
+				D35E6DDD1F21E4B800B85FE4 /* ViewController.h */,
+				D35E6DDE1F21E4B800B85FE4 /* ViewController.m */,
+				D35E6DE01F21E4B800B85FE4 /* Main.storyboard */,
+				D35E6DE31F21E4B800B85FE4 /* Assets.xcassets */,
+				D35E6DE51F21E4B800B85FE4 /* LaunchScreen.storyboard */,
+				D35E6DE81F21E4B800B85FE4 /* Info.plist */,
+				D35E6E0A1F21E9E800B85FE4 /* MORISE.cer */,
+				D35E6DD71F21E4B700B85FE4 /* Supporting Files */,
+			);
+			path = httpsTest;
+			sourceTree = "<group>";
+		};
+		D35E6DD71F21E4B700B85FE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D35E6DD81F21E4B700B85FE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D35E6DF01F21E4B800B85FE4 /* httpsTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D35E6DF11F21E4B800B85FE4 /* httpsTestTests.m */,
+				D35E6DF31F21E4B800B85FE4 /* Info.plist */,
+			);
+			path = httpsTestTests;
+			sourceTree = "<group>";
+		};
+		D35E6DFB1F21E4B800B85FE4 /* httpsTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D35E6DFC1F21E4B800B85FE4 /* httpsTestUITests.m */,
+				D35E6DFE1F21E4B800B85FE4 /* Info.plist */,
+			);
+			path = httpsTestUITests;
+			sourceTree = "<group>";
+		};
+		F5DD60FE2B09C7B8BD30CD19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB3F701D197B4DA83EF7DB59 /* Pods-httpsTest.debug.xcconfig */,
+				85B688A0E8069ED3C865B909 /* Pods-httpsTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D35E6DD31F21E4B700B85FE4 /* httpsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35E6E011F21E4B800B85FE4 /* Build configuration list for PBXNativeTarget "httpsTest" */;
+			buildPhases = (
+				F2EF3548FE43D6760ACB413C /* [CP] Check Pods Manifest.lock */,
+				D35E6DD01F21E4B700B85FE4 /* Sources */,
+				D35E6DD11F21E4B700B85FE4 /* Frameworks */,
+				D35E6DD21F21E4B700B85FE4 /* Resources */,
+				8CDBA93DE53885CB573DEB71 /* [CP] Embed Pods Frameworks */,
+				A832C06644F1E90A2872FF8F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = httpsTest;
+			productName = httpsTest;
+			productReference = D35E6DD41F21E4B700B85FE4 /* httpsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D35E6DEC1F21E4B800B85FE4 /* httpsTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35E6E041F21E4B800B85FE4 /* Build configuration list for PBXNativeTarget "httpsTestTests" */;
+			buildPhases = (
+				D35E6DE91F21E4B800B85FE4 /* Sources */,
+				D35E6DEA1F21E4B800B85FE4 /* Frameworks */,
+				D35E6DEB1F21E4B800B85FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35E6DEF1F21E4B800B85FE4 /* PBXTargetDependency */,
+			);
+			name = httpsTestTests;
+			productName = httpsTestTests;
+			productReference = D35E6DED1F21E4B800B85FE4 /* httpsTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D35E6DF71F21E4B800B85FE4 /* httpsTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35E6E071F21E4B800B85FE4 /* Build configuration list for PBXNativeTarget "httpsTestUITests" */;
+			buildPhases = (
+				D35E6DF41F21E4B800B85FE4 /* Sources */,
+				D35E6DF51F21E4B800B85FE4 /* Frameworks */,
+				D35E6DF61F21E4B800B85FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35E6DFA1F21E4B800B85FE4 /* PBXTargetDependency */,
+			);
+			name = httpsTestUITests;
+			productName = httpsTestUITests;
+			productReference = D35E6DF81F21E4B800B85FE4 /* httpsTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D35E6DCC1F21E4B700B85FE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Morise;
+				TargetAttributes = {
+					D35E6DD31F21E4B700B85FE4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MPT962732S;
+						ProvisioningStyle = Automatic;
+					};
+					D35E6DEC1F21E4B800B85FE4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MPT962732S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D35E6DD31F21E4B700B85FE4;
+					};
+					D35E6DF71F21E4B800B85FE4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MPT962732S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D35E6DD31F21E4B700B85FE4;
+					};
+				};
+			};
+			buildConfigurationList = D35E6DCF1F21E4B700B85FE4 /* Build configuration list for PBXProject "httpsTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D35E6DCB1F21E4B700B85FE4;
+			productRefGroup = D35E6DD51F21E4B700B85FE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D35E6DD31F21E4B700B85FE4 /* httpsTest */,
+				D35E6DEC1F21E4B800B85FE4 /* httpsTestTests */,
+				D35E6DF71F21E4B800B85FE4 /* httpsTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D35E6DD21F21E4B700B85FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35E6DE71F21E4B800B85FE4 /* LaunchScreen.storyboard in Resources */,
+				D35E6E0B1F21E9E800B85FE4 /* MORISE.cer in Resources */,
+				D35E6DE41F21E4B800B85FE4 /* Assets.xcassets in Resources */,
+				D35E6DE21F21E4B800B85FE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35E6DEB1F21E4B800B85FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35E6DF61F21E4B800B85FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CDBA93DE53885CB573DEB71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-httpsTest/Pods-httpsTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A832C06644F1E90A2872FF8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-httpsTest/Pods-httpsTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2EF3548FE43D6760ACB413C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D35E6DD01F21E4B700B85FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35E6DDF1F21E4B800B85FE4 /* ViewController.m in Sources */,
+				D35E6DDC1F21E4B800B85FE4 /* AppDelegate.m in Sources */,
+				D35E6DD91F21E4B700B85FE4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35E6DE91F21E4B800B85FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35E6DF21F21E4B800B85FE4 /* httpsTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35E6DF41F21E4B800B85FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35E6DFD1F21E4B800B85FE4 /* httpsTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D35E6DEF1F21E4B800B85FE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35E6DD31F21E4B700B85FE4 /* httpsTest */;
+			targetProxy = D35E6DEE1F21E4B800B85FE4 /* PBXContainerItemProxy */;
+		};
+		D35E6DFA1F21E4B800B85FE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35E6DD31F21E4B700B85FE4 /* httpsTest */;
+			targetProxy = D35E6DF91F21E4B800B85FE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D35E6DE01F21E4B800B85FE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35E6DE11F21E4B800B85FE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D35E6DE51F21E4B800B85FE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35E6DE61F21E4B800B85FE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D35E6DFF1F21E4B800B85FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D35E6E001F21E4B800B85FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D35E6E021F21E4B800B85FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB3F701D197B4DA83EF7DB59 /* Pods-httpsTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MPT962732S;
+				INFOPLIST_FILE = httpsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Morise.httpsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D35E6E031F21E4B800B85FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B688A0E8069ED3C865B909 /* Pods-httpsTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MPT962732S;
+				INFOPLIST_FILE = httpsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Morise.httpsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D35E6E051F21E4B800B85FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MPT962732S;
+				INFOPLIST_FILE = httpsTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Morise.httpsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/httpsTest.app/httpsTest";
+			};
+			name = Debug;
+		};
+		D35E6E061F21E4B800B85FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MPT962732S;
+				INFOPLIST_FILE = httpsTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Morise.httpsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/httpsTest.app/httpsTest";
+			};
+			name = Release;
+		};
+		D35E6E081F21E4B800B85FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MPT962732S;
+				INFOPLIST_FILE = httpsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Morise.httpsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = httpsTest;
+			};
+			name = Debug;
+		};
+		D35E6E091F21E4B800B85FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MPT962732S;
+				INFOPLIST_FILE = httpsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Morise.httpsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = httpsTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D35E6DCF1F21E4B700B85FE4 /* Build configuration list for PBXProject "httpsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35E6DFF1F21E4B800B85FE4 /* Debug */,
+				D35E6E001F21E4B800B85FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35E6E011F21E4B800B85FE4 /* Build configuration list for PBXNativeTarget "httpsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35E6E021F21E4B800B85FE4 /* Debug */,
+				D35E6E031F21E4B800B85FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35E6E041F21E4B800B85FE4 /* Build configuration list for PBXNativeTarget "httpsTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35E6E051F21E4B800B85FE4 /* Debug */,
+				D35E6E061F21E4B800B85FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35E6E071F21E4B800B85FE4 /* Build configuration list for PBXNativeTarget "httpsTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35E6E081F21E4B800B85FE4 /* Debug */,
+				D35E6E091F21E4B800B85FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D35E6DCC1F21E4B700B85FE4 /* Project object */;
+}
