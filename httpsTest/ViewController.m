@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSMutableDictionary *param = [NSMutableDictionary dictionary];
     
-    NSString *url = @"https://pa.lling.io/serveraddr/"  ;
+    NSString *url = @"https://www.baidu.com"  ;
     [self postWithUrl:url requestDict:param successBlcok:^(id  _Nullable resultDict ) {
         NSDictionary *dict=resultDict;
         NSLog(@"！！！！！！！！%@",dict);
