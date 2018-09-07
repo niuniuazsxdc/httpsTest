@@ -17,6 +17,7 @@
 		D35E6DF21F21E4B800B85FE4 /* httpsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E6DF11F21E4B800B85FE4 /* httpsTestTests.m */; };
 		D35E6DFD1F21E4B800B85FE4 /* httpsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E6DFC1F21E4B800B85FE4 /* httpsTestUITests.m */; };
 		D35E6E0B1F21E9E800B85FE4 /* MORISE.cer in Resources */ = {isa = PBXBuildFile; fileRef = D35E6E0A1F21E9E800B85FE4 /* MORISE.cer */; };
+		D3A62865213FF2110040010C /* AFN.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A62864213FF2110040010C /* AFN.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		D35E6DFC1F21E4B800B85FE4 /* httpsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = httpsTestUITests.m; sourceTree = "<group>"; };
 		D35E6DFE1F21E4B800B85FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D35E6E0A1F21E9E800B85FE4 /* MORISE.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = MORISE.cer; sourceTree = "<group>"; };
+		D3A62863213FF2110040010C /* AFN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFN.h; sourceTree = "<group>"; };
+		D3A62864213FF2110040010C /* AFN.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFN.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				D35E6DDB1F21E4B800B85FE4 /* AppDelegate.m */,
 				D35E6DDD1F21E4B800B85FE4 /* ViewController.h */,
 				D35E6DDE1F21E4B800B85FE4 /* ViewController.m */,
+				D3A62863213FF2110040010C /* AFN.h */,
+				D3A62864213FF2110040010C /* AFN.m */,
 				D35E6DE01F21E4B800B85FE4 /* Main.storyboard */,
 				D35E6DE31F21E4B800B85FE4 /* Assets.xcassets */,
 				D35E6DE51F21E4B800B85FE4 /* LaunchScreen.storyboard */,
@@ -356,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D35E6DDF1F21E4B800B85FE4 /* ViewController.m in Sources */,
+				D3A62865213FF2110040010C /* AFN.m in Sources */,
 				D35E6DDC1F21E4B800B85FE4 /* AppDelegate.m in Sources */,
 				D35E6DD91F21E4B700B85FE4 /* main.m in Sources */,
 			);
